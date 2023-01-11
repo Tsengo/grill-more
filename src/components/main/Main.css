@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Main{
+    background-image: url(../../img/dark-plaster-pattern\ 1.png);
+    width: 100%;
+    height: max-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -4px;
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+.Main h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #FFBA03;
+    width: fit-content;
+    margin: 0 auto;
+    text-transform: uppercase;
+}

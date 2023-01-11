@@ -1,0 +1,84 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+.Top-list{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: -64px;
+}
+.Top-list li,.Burger-Menu li{
+    padding-bottom: 4px;
+    font-weight: 200;
+}
+.Top-list li ,.Burger-Menu li {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.Top-list li :hover,.active{
+    color: #FFBA03 !important;
+    border-bottom: solid 1px #FFBA03;
+    font-weight: 900 !important;
+    cursor: pointer;
+}
+.burger{
+    width: 32px;
+    height: 32px;   
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+.Burger-Menu{
+    display: none ;
+    position: absolute;
+    /* right: -80px; */
+    top: 0px;
+    width: 100px;
+    height: 1000px;
+    background-color: black; 
+    padding: 128px 40px ;
+    z-index: 0;
+    justify-content: flex-end;
+    /* transition: all 1s; */
+}
+.Burger-Menu ul{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Burger-Menu ul li{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 860px){
+    .Top-list{
+        display: none;
+    }
+    .burger{
+        display: flex;
+        z-index: 999;
+    }
+    .burger-open{
+        position: absolute;
+        right: 140px;
+        top: 48px;
+        transform: rotate(360deg);
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    }
+
+    .Burger-Menu-close{
+        right: -100px;
+        transition: right 2s !important;
+    }
+    .Burger-Menu-open{
+        display: flex;
+        right: 0px;
+        z-index: -999;
+        transition: right 2s !important;
+    }
+}

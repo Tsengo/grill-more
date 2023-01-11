@@ -1,0 +1,25 @@
+.About-wrap{
+    width: fit-content;
+    padding: 104px 136px 0px 172px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 64px;
+    margin: 0px auto;
+}
+.photos{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.column-photo{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.About-txt{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #fefefe;
+    width: 512px;
+}

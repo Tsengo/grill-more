@@ -1,0 +1,14 @@
+.Phone_Number{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 142px;
+    height: 24px;
+    gap: 8px;
+}
+
+.Phone_Number p{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}

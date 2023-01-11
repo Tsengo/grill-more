@@ -1,0 +1,20 @@
+.Top-header{
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    padding: 32px 60px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+}
+.Big-Slider{
+    position: absolute;
+}
+@media only screen and (max-width: 860px){
+    .call{
+        display: none;
+    }
+}

@@ -35,15 +35,13 @@
 .Burger-Menu{
     display: none ;
     position: absolute;
-    /* right: -80px; */
     top: 0px;
     width: 100px;
     height: 1000px;
     background-color: black; 
     padding: 128px 40px ;
-    z-index: 0;
+    z-index: 999 ;
     justify-content: flex-end;
-    /* transition: all 1s; */
 }
 .Burger-Menu ul{
     width: max-content;
@@ -55,13 +53,13 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 860px){
+@media only screen and (max-width: 980px){
     .Top-list{
         display: none;
     }
     .burger{
         display: flex;
-        z-index: 999;
+        z-index: 999 !important;
     }
     .burger-open{
         position: absolute;

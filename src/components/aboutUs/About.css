@@ -8,3 +8,9 @@ h1{
     font-weight: 900;
     margin: 48px auto;
 }
+#AboutUs{
+    background-color: #1B1B1B !important;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /* z-index: 999; */
+}

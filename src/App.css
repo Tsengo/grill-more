@@ -10,12 +10,26 @@
 ::-webkit-scrollbar-thumb{
     background-color: rgb(149, 149, 150);
 }
+
 html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #1B1B1B;
+    background-image: url(./img/dark-plaster-pattern\ 1.png);
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
 }
+
 .footer{
-    padding: 104px 60px;
+    background-color: #1B1B1B;
+    padding: 104px 60px 48px 60px;
+}
+.creator{
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 72px;
+}
+.creator a{
+    color: rgb(150, 205, 252);
+    text-decoration: underline;
 }

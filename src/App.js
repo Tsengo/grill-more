@@ -18,6 +18,8 @@ function App() {
       </div>
       <div className='footer'>
         <Footer />
+        <p className='creator'>Created by <a href='https://nikatsenguashvili.pages.dev/'> Nika Tsenguashvili</a>
+        </p>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+
 .main-menu ul{
     display: flex;
     flex-direction: row;
@@ -29,7 +30,6 @@
     flex-grow: 1;
     width: fit-content;
     padding: 0px 128px 0px 128px;
-    overflow: hidden !important;
 }
 .menu-table{
     width: fit-content;
@@ -38,7 +38,7 @@
     flex-wrap:wrap;
     margin: 0px auto 64px auto;
     gap: 48px !important;
-    padding: 128px;
+    padding: 128px 128px 0px 128px;
     justify-content: space-between;
 }
 .steak{
@@ -114,4 +114,75 @@
 }
 .active-content {
   display: block;
+}
+@media only screen and (max-width: 1234px) {
+    .menu-table{
+        padding: 10px ;
+    }
+}
+@media only screen and (max-width: 1012px) {
+    .steak-information{
+        padding: 124px 10px 63px 10px;
+    }
+}
+@media only screen and (max-width: 940px) {
+    .main-menu ul{
+        gap: 20px;
+    }
+    .main-menu ul li{
+        padding: 16px 40px;
+    }
+    
+}
+@media only screen and (max-width: 926px) {
+    .steak{
+        position: none !important;
+    }
+    .steak img{
+        /* position: absolute !important; */
+        top: 0px !important;
+    }
+    
+    .steak-information{
+        display: none !important;
+        padding: 24px !important;
+        gap: 8px !important;
+    }
+    .steak img{
+        position: relative ;
+        width: 180px;
+    }
+    .steak:hover .steak-information{
+        display: flex !important;
+        width: 180px !important;
+        height: 180px !important;
+        position: absolute !important;
+    }
+    .steak:hover .steak-information hr{
+        display: none;
+    }
+    .steak:hover .steak-information h2,.review,.price{
+        color: black;
+        padding: 0px;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .main-menu ul{
+        gap: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-menu ul li{
+        padding: 8px 24px;
+    }
+    .MenuTables{
+        padding: 16px !important;
+
+    }
+    .menu-table{
+        gap: 0px !important;
+        justify-content: space-between;
+    }
 }

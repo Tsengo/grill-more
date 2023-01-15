@@ -6,7 +6,10 @@ const Call = () => {
     return (
         <div className="Phone_Number">
             <img src={ phone} alt="phone"/>
-            <p>032 283 83 80</p>
+            <p>
+                {/* 032 283 83 80 */}
+                032 000 00 00
+            </p>
         </div>
     )
 }

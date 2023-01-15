@@ -4,7 +4,6 @@ import Contact from "./Contact";
 // import BottomMenu from "./BottomMenu";
 import Address from "./Address";
 import './Footer.css';
-// import '../../App.css';
 
 const Footer = () => {
     return (

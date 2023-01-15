@@ -1,4 +1,5 @@
 .Top-Logo{
     width: 240px;
     height: 56px;
+    z-index: 999;
 }

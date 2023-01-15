@@ -1,14 +1,15 @@
 import React from "react";
-import logo from '../../img/Logo.png';
+// import logo from '../../img/Logo.png';
 import '../header/Logo.css';
 import './Links.css';
 
 const Links = () => {
     return (
-    <div className="links">            
-        <div className="Top-Logo">
+        <div className="links">
+        <h1 className="company">Company Name</h1>        
+        {/* <div className="Top-Logo">
             <img src={logo} alt="logo"/>
-        </div>
+        </div> */}
             <ul className="Socials">
                 <li className="instagram"><a></a></li>
                 <li className="facebook"><a></a></li>

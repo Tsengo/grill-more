@@ -1,6 +1,7 @@
+
 .About-wrap{
     width: fit-content;
-    padding: 104px 136px 0px 172px;
+    padding: 104px auto 0px auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,4 +23,29 @@
     font-size: 32px;
     color: #fefefe;
     width: 512px;
+}
+@media only screen and (max-width: 1234px) {
+    .About-wrap{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:560px){
+    .photos{
+        gap: 16px;
+        width: 400px;
+    }
+    .photos img{
+        width: 150px;
+    }
+    .column-photo{
+        /* ga */
+    }
+    .column-photo img{
+        width: 100%;
+    }
+    .About-txt{
+        width: 400px;
+        text-align: center;
+    }
+
 }

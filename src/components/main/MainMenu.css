@@ -52,6 +52,7 @@
     border-radius: 24px;
     /* padding: 32px; */
     margin-top: 116px;
+    z-index: -1;
 }
 .steak img{
     width: 180px;

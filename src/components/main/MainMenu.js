@@ -8,7 +8,7 @@ import MenuTable3 from "./MenuTable3";
 import MenuTable4 from "./MenuTable4";
 
 const MainMenu = () => {
-    const [mainToggle, setMainToggle] = useState(1);
+    const [mainToggle, setMainToggle] = useState(2);
     const mainTabToggle = (index) => {
         setMainToggle(index);
     }
